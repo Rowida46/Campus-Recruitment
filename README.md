@@ -7,8 +7,7 @@ CS major*
 
 ## Team Members
 
-[George Azmy Fawzy](https://github.com/MrGaFs) and [Rowida Nagah](https://github.com/Rowida46)
-
+[George Azmy Fawzy](https://github.com/MrGaFs), [Rowida Nagah](https://github.com/Rowida46), [Abdelrahman Saeed](https://github.com/AbdelrahmanSaeed11) and [Makar Samer](https://github.com/makar132)
 
 
 ## Objective 
