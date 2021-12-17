@@ -13,7 +13,7 @@ CS major*
 
 ## Objective 
   
-  Our goal is to predict whether a candidate will be placed or not. This is a classification problem and  we will use KNN and SVM and compare how these perform individually.
+  Our goal is to predict whether a candidate will be hired or not. This is a classification problem and we will use KNN and SVM and compare how these perform individually.
 
 [Used Data Set](https://www.kaggle.com/aayushmishra1512/campus-recruitment-logistic-knn-svm/data)
 
@@ -21,6 +21,7 @@ CS major*
 *We will work on*
 -  Data Exploration & Cleaning
 -  Look for null values in our data.
+-  Determining factors that influence placement.
 -  Drop Misleading or unnecessary column, `sl_no and` and `salary` column.
 ```python
 df1.drop(['sl_no','salary'],axis = 1,inplace = True)
@@ -76,3 +77,9 @@ svc_pred = svc.predict(X_test)
 </dl>
 
 This model still has some scope for improvement. But we could see that Logistic Regression performed better than both KNN and SVM. So atleast we have an idea which model would give us the better results.
+
+
+## Referance 
+
+- [Predicting whether student gets hired or not *github Repo*](https://github.com/Nanasei878/Campus-Recruitment)
+- [Campus Recruitment Kaggle Challenge](https://www.kaggle.com/benroshan/factors-affecting-campus-placement)
